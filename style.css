@@ -1,0 +1,48 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  display: grid;
+  grid-template-areas: "aside search-section search-section search-section"
+                       "aside overview       overview      overview"
+                       "aside toggle-options toggle-options toggle-options"
+                       "aside graphs         graphs         graphs"
+                       "aside profile        profile        social-menu"
+}
+
+aside {
+  grid-area: aside;
+  background-color: grey;
+}
+
+.search-section {
+  grid-area: search-section;
+  background-color: lightgrey;
+}
+
+.overview {
+  grid-area: overview;
+  background-color: white;
+}
+
+.toggle-options {
+  grid-area: toggle-options;
+  background-color: lightgrey;
+}
+
+.graphs {
+  grid-area: graphs;
+  background-color: white;
+}
+
+.profile {
+  grid-area: profile;
+  background-color: grey;
+}
+
+.social-menu {
+  grid-area: social-menu;
+  background-color: lightgrey;
+}
