@@ -15,6 +15,13 @@ body {
 aside {
   grid-area: aside;
   background-color: grey;
+  width: 125px;
+}
+
+.main-menu,
+.admin-menu {
+  display: flex;
+  flex-direction: column;
 }
 
 .search-section {
