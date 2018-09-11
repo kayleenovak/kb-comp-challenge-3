@@ -21,18 +21,36 @@ aside {
 
 .person-info {
   border-bottom: 3px solid #283143;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 24px 0;
+}
+
+.name-profile {
+  font-size: 18px;
+  font-weight: 400;
+  color: #98A3B7;
+  margin-top: 18px;
+}
+
+.profile-image {
+  height: 100px;
+  width: 100px;
+  border-radius: 50px;
 }
 
 .main-menu,
 .admin-menu {
   border-bottom: 3px solid #283143;
-  padding: 10px 0 10px 15px;
+  padding: 8px 0 6px 17px;
   font-size: 8px;
+  margin: 0;
 }
 
 .main-heading,
 .admin {
-  margin-bottom: 20px;
+  margin: 20px 0 19px 0;
   font-size: 14px;
   color: #61718C;
 }
@@ -46,15 +64,18 @@ button {
 .nav-btn {
   display: block;
   color: #98A3B7;
-  margin-bottom: 23px;
+  margin-bottom: 22px;
   padding-left: 0;
   font-size: 14px;
   font-weight: 600;
 }
 
 .icon {
-  font-size: 20px;
+  font-size: 19px;
+  width: 21px;
   margin-right: 15px;
+  position: relative;
+  top: 2px;
 }
 
 .nav-btn:hover {
