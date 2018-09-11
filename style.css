@@ -79,31 +79,50 @@ button {
   top: 2px;
 }
 
-#categories {
-  display: block;
+.categories {
+  padding: 17px;
 }
 
-.administrative {
+.checkboxes {
   -webkit-appearance: none;
-  background-color: red;
   padding: 9px;
-  border-radius: 3px;
-  display: inline-block;
+  display: block;
   position: relative;
+  margin-bottom: 17px;
+  border: 1px solid #98A3B7;
 }
 
-.administrative:checked {
-  background-color: red;
+.checkboxes:checked {
   color: #99a1a7;
 }
 
-.administrative:checked:after {
+.checkboxes:checked:after {
   content: '\2714';
   font-size: 14px;
   position: absolute;
   top: 0px;
   left: 3px;
   color: black;
+}
+
+.administrative,
+.administratice:checked {
+  background-color: #FDD10D;
+}
+
+.design,
+.design:checked {
+  background-color: #26A6F9;
+}
+
+.executive,
+.executive:checked {
+  background-color: #EA1253;
+}
+
+.human-resources,
+.human-resources:checked {
+  background-color: #01A17E;
 }
 
 .nav-btn:hover {
