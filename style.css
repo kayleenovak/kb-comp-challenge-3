@@ -9,21 +9,53 @@ body {
                        "aside overview       overview      overview"
                        "aside toggle-options toggle-options toggle-options"
                        "aside graphs         graphs         graphs"
-                       "aside profile        profile        social-menu"
+                       "aside profile        profile        social-menu";
+  font-family: 'Open Sans', sans-serif;
 }
 
 aside {
   grid-area: aside;
-  background-color: grey;
-  width: 125px;
+  background-color: #343F53;
+  width: 215px;
+}
+
+.person-info {
+  border-bottom: 3px solid #283143;
 }
 
 .main-menu,
 .admin-menu {
-  display: flex;
-  flex-direction: column;
+  border-bottom: 3px solid #283143;
+  padding: 10px 0 10px 15px;
+  font-size: 8px;
 }
 
+.main-heading,
+.admin {
+  margin-bottom: 20px;
+  font-size: 14px;
+  color: #61718C;
+}
+
+button {
+  border: none;
+  background: none;
+  font-size: 12px;
+}
+
+.nav-btn {
+  display: block;
+  color: #98A3B7;
+  margin-bottom: 25px;
+  padding-left: 0;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.nav-btn:hover {
+  background: #374256;
+  color: white;
+}
 .search-section {
   grid-area: search-section;
   background-color: lightgrey;
