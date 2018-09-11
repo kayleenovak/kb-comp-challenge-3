@@ -49,7 +49,8 @@ aside {
 }
 
 .main-heading,
-.admin {
+.admin,
+.categories-heading {
   margin: 20px 0 19px 0;
   font-size: 14px;
   color: #61718C;
@@ -76,6 +77,33 @@ button {
   margin-right: 15px;
   position: relative;
   top: 2px;
+}
+
+#categories {
+  display: block;
+}
+
+.administrative {
+  -webkit-appearance: none;
+  background-color: red;
+  padding: 9px;
+  border-radius: 3px;
+  display: inline-block;
+  position: relative;
+}
+
+.administrative:checked {
+  background-color: red;
+  color: #99a1a7;
+}
+
+.administrative:checked:after {
+  content: '\2714';
+  font-size: 14px;
+  position: absolute;
+  top: 0px;
+  left: 3px;
+  color: black;
 }
 
 .nav-btn:hover {
