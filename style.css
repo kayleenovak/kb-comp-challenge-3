@@ -43,7 +43,7 @@ aside {
 .main-menu,
 .admin-menu {
   border-bottom: 3px solid #283143;
-  padding: 8px 0 6px 17px;
+  padding: 8px 0 6px 25px;
   font-size: 8px;
   margin: 0;
 }
@@ -80,16 +80,28 @@ button {
 }
 
 .categories {
-  padding: 17px;
+  padding: 25px;
+}
+
+.checkbox {
+}
+
+label {
+  display: block;
+  position: relative;
+  bottom: 26px;
+  left: 35px;
+  font-size: 13px;
+  color: #98A3B7;
+  font-weight: 600;
 }
 
 .checkboxes {
   -webkit-appearance: none;
   padding: 9px;
-  display: block;
   position: relative;
-  margin-bottom: 17px;
-  border: 1px solid #98A3B7;
+  margin-bottom: 6px;
+  border-radius: 3px;
 }
 
 .checkboxes:checked {
