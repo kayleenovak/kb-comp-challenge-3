@@ -2,6 +2,7 @@
 <html>
 <head>
   <title>Static Comp 3</title>
+  <link rel="stylesheet" type="text/css" href="normalize.css">
   <link rel="stylesheet" type="text/css" href="style.css">
   <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600,700" rel="stylesheet">
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
@@ -29,9 +30,20 @@
       <button class="nav-btn"><i class="fas fa-share-alt icon"></i>SOCIAL</button>
     </section>
     <section class="categories">
-      <h2>Categories</h2>
-      <form>
-        <input type="checkbox" name="categories">
+      <h2 class="categories-heading">Categories</h2>
+      <form class="checkbox">
+          <input type="checkbox" id="admin" name="administrative" class="administrative checkboxes">
+          <label for="admin">Administrative
+          </label>
+          <input type="checkbox" id="designid" name="design" class="design checkboxes">
+          <label for="designid">Design
+          </label>
+          <input type="checkbox" id="executive" name="executive" class="executive checkboxes">
+          <label for="executive">Executive
+          </label>
+          <input type="checkbox" id="hr" name="human-resources" class="human-resources checkboxes">
+          <label for="hr">Human Resources
+          </label>
       </form>
     </section>
   </aside>

@@ -43,13 +43,14 @@ aside {
 .main-menu,
 .admin-menu {
   border-bottom: 3px solid #283143;
-  padding: 8px 0 6px 17px;
+  padding: 8px 0 6px 25px;
   font-size: 8px;
   margin: 0;
 }
 
 .main-heading,
-.admin {
+.admin,
+.categories-heading {
   margin: 20px 0 19px 0;
   font-size: 14px;
   color: #61718C;
@@ -76,6 +77,64 @@ button {
   margin-right: 15px;
   position: relative;
   top: 2px;
+}
+
+.categories {
+  padding: 25px;
+}
+
+.checkbox {
+}
+
+label {
+  display: block;
+  position: relative;
+  bottom: 26px;
+  left: 35px;
+  font-size: 13px;
+  color: #98A3B7;
+  font-weight: 600;
+}
+
+.checkboxes {
+  -webkit-appearance: none;
+  padding: 9px;
+  position: relative;
+  margin-bottom: 6px;
+  border-radius: 3px;
+}
+
+.checkboxes:checked {
+  color: #99a1a7;
+}
+
+.checkboxes:checked:after {
+  content: '\2714';
+  font-size: 14px;
+  position: absolute;
+  top: 0px;
+  left: 3px;
+  color: black;
+}
+
+.administrative,
+.administratice:checked {
+  background-color: #FDD10D;
+}
+
+.design,
+.design:checked {
+  background-color: #26A6F9;
+}
+
+.executive,
+.executive:checked {
+  background-color: #EA1253;
+}
+
+.human-resources,
+.human-resources:checked {
+  background-color: #01A17E;
 }
 
 .nav-btn:hover {
