@@ -189,6 +189,14 @@ label {
   background-color: white;
 }
 
+.job-title {
+  float: left;
+}
+
+.overview-btn {
+  float: right;
+}
+
 .toggle-options {
   grid-area: toggle-options;
   background-color: lightgrey;
