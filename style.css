@@ -163,11 +163,16 @@ label {
 
 .search-btn {
   border-right: 2px solid #EBEBEB;
+  color: #9AA3B0;
+}
+
+.search-btn:hover {
+  background: #009FFE;
+  color: white;
 }
 
 .search-icon {
   font-size: 22px;
-  color: #9AA3B0;
 }
 
 .search-bar {
