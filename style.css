@@ -13,6 +13,7 @@ body {
                        "aside graphs         graphs         graphs"
                        "aside profile        profile        social-menu";
   font-family: 'Open Sans', sans-serif;
+  background-color: grey;
 }
 
 aside {
@@ -159,6 +160,7 @@ label {
   background: grey;
   height: 85px;
   border-bottom: 2px solid #EBEBEB;
+  margin: 0;
 }
 
 .search-btn {
@@ -187,16 +189,72 @@ label {
 .overview {
   grid-area: overview;
   background-color: white;
+  margin: 0;
+  height: 165px;
+}
+
+.job-listing {
+  float: left;
+  margin: 40px 0 0 50px;
+}
+
+.job-title {
+  font-size: 28px;
+  font-weight: 500;
+  margin-top: 10px;
+  margin-bottom: 0;
+}
+
+.location {
+  margin-top: 12px;
+  margin-left: 5px;
+}
+
+.location-icon {
+  margin-right: 2px;
+}
+
+.overview-btns {
+  float: right;
+  margin: 60px 50px 0 0;
+}
+
+.overview-open {
+  height: 44px;
+  width: 100px;
+  border: 3px solid #EBEBEB;
+  border-radius: 22px;
+  font-size: 13.5px;
+  margin: 5px;
+  color: #9AA3B0;
+  font-weight: 700;
+}
+
+.overview-btn {
+  height: 44px;
+  width: 44px;
+  border: 3px solid #EBEBEB;
+  border-radius: 22px;
+  font-size: 16px;
+  margin: 0 0 0 10px;
+  color: #9AA3B0;
+
+}
+
+.circle-icon {
+  color: green;
 }
 
 .toggle-options {
   grid-area: toggle-options;
   background-color: lightgrey;
+  height: 70px;
 }
 
 .graphs {
   grid-area: graphs;
   background-color: white;
+  height: 370px;
 }
 
 .profile {
