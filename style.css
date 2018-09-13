@@ -13,7 +13,6 @@ body {
                        "aside graphs         graphs         graphs"
                        "aside profile        profile        social-menu";
   font-family: 'Open Sans', sans-serif;
-  background-color: grey;
 }
 
 aside {
@@ -190,7 +189,7 @@ label {
   grid-area: overview;
   background-color: white;
   margin: 0;
-  height: 165px;
+  height: 150px;
 }
 
 .job-listing {
@@ -238,7 +237,6 @@ label {
   font-size: 16px;
   margin: 0 0 0 10px;
   color: #9AA3B0;
-
 }
 
 .circle-icon {
@@ -247,9 +245,25 @@ label {
 
 .toggle-options {
   grid-area: toggle-options;
-  background-color: lightgrey;
   height: 70px;
+  display: flex;
+  justify-content: space-between;
+  align-content: top;
+  margin: 0;
+  padding: 0 250px 0 42px;
+  border-bottom: 2px solid #EBEBEB;
 }
+
+.toggle-btn {
+  border-bottom: 4px solid transparent;
+  font-weight: 700;
+  font-size: 14px;
+}
+
+.toggle-btn:hover {
+  border-bottom: 4px solid #0298F0;
+}
+
 
 .graphs {
   grid-area: graphs;
