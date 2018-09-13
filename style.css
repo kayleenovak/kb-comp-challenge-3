@@ -28,6 +28,7 @@ aside {
 }
 
 .name-profile {
+  background: none !important;
   font-size: 18px;
   font-weight: 400;
   color: #98A3B7;
@@ -43,32 +44,41 @@ aside {
 .main-menu,
 .admin-menu {
   border-bottom: 3px solid #283143;
-  padding: 8px 0 6px 25px;
+  padding: 0px 0 20px 0px;
   font-size: 8px;
   margin: 0;
+
 }
 
 .main-heading,
 .admin,
 .categories-heading {
-  margin: 20px 0 19px 0;
+  margin: 31px 0 7px 24px;
   font-size: 14px;
   color: #61718C;
 }
 
 button {
   border: none;
-  background: none;
   font-size: 12px;
 }
 
 .nav-btn {
   display: block;
+  background: transparent;
   color: #98A3B7;
-  margin-bottom: 22px;
-  padding-left: 0;
-  font-size: 14px;
-  font-weight: 600;
+  height: 45px;
+  padding-left: 20px;
+  font-size: 13.5px;
+  font-weight: 700;
+  border-left: 4px solid transparent;
+  width: 215px;
+  text-align: left;
+}
+
+.nav-btn:hover {
+  background: #2E384A !important;
+  border-left: 4px solid #0298F0;
 }
 
 .icon {
@@ -79,19 +89,16 @@ button {
   top: 2px;
 }
 
-.categories {
-  padding: 25px;
-}
-
-.checkbox {
+.categories-heading {
+  margin-bottom: 27px;
 }
 
 label {
   display: block;
   position: relative;
-  bottom: 26px;
-  left: 35px;
-  font-size: 13px;
+  bottom: 25px;
+  left: 55px;
+  font-size: 13.5px;
   color: #98A3B7;
   font-weight: 600;
 }
@@ -101,6 +108,7 @@ label {
   padding: 9px;
   position: relative;
   margin-bottom: 6px;
+  margin-left: 25px;
   border-radius: 3px;
 }
 
