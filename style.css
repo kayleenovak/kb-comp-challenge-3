@@ -1,9 +1,11 @@
 * {
   box-sizing: border-box;
+  margin: 0;
 }
 
 body {
   margin: 0;
+  padding: 0;
   display: grid;
   grid-template-areas: "aside search-section search-section search-section"
                        "aside overview       overview      overview"
@@ -149,9 +151,32 @@ label {
   background: #374256;
   color: white;
 }
+
 .search-section {
   grid-area: search-section;
-  background-color: lightgrey;
+  display: grid;
+  grid-template-columns: 1fr 9fr repeat(3, 1fr) ;
+  background: grey;
+  height: 85px;
+  border-bottom: 2px solid #EBEBEB;
+}
+
+.search-btn {
+  border-right: 2px solid #EBEBEB;
+}
+
+.search-icon {
+  font-size: 22px;
+  color: #9AA3B0;
+}
+
+.search-bar {
+  font-family: "Open Sans", "Font Awesome 5 Free";
+  font-weight: 700;
+  font-size: 20px;
+  border: none;
+  border-right: 2px solid #EBEBEB;
+  padding-left: 20px;
 }
 
 .overview {
