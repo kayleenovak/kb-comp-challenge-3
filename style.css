@@ -270,17 +270,16 @@ label {
   height: 370px;
   display: flex;
   align-items: center;
+  width: 100%;
 }
 
 /*Begin of graph styling*/
 
 .single-chart {
-  width: 15%;
-  justify-content: space-around;
+  width: 16%;
 }
 
 .circular-chart {
-  display: block;
   margin: 10px auto;
   max-width: 80%;
   max-height: 250px;
@@ -305,15 +304,15 @@ label {
   }
 }
 
-.circular-chart.orange .circle {
+.circular-chart.teal .circle {
   stroke: #00BEC4;
 }
 
-.circular-chart.green .circle {
+.circular-chart.blue .circle {
   stroke: #009FFE;
 }
 
-.circular-chart.blue .circle {
+.circular-chart.purple .circle {
   stroke: #BC62B0;
 }
 
@@ -331,6 +330,11 @@ label {
 
 span {
   font-size: 5px;
+}
+
+.bar-graph {
+  width: 40%;
+  float: right;
 }
 /*end graph syling*/
 
