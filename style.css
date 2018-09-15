@@ -454,12 +454,19 @@ table {
 
 .social-menu {
   grid-area: social-menu;
-  background-color: lightgrey;
+  background-color: #EBF2F6;
+  padding: 35px 50px 0 50px;
 }
 
 .social-btn {
   width: 100%;
   border: none;
+  color: white;
+  height: 55px;
+  border-radius: 5px;
+  margin-bottom: 20px;
+  font-size: 15px;
+  font-weight: 600;
 }
 
 .facebook-btn {
