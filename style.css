@@ -418,9 +418,16 @@ table {
 }
 
 .job-rows {
-  padding: 30px 0 30px 40px;
+  padding: 30px 0 30px 0px;
   font-size: 14.5px;
   background-color: white;
+  border-bottom: 1px solid grey;
+  border-width: 30%;
+}
+
+.table-no-border {
+  width: 5%;
+  border: none !important;
 }
 
 .social-menu {
