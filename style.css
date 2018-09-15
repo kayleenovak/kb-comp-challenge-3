@@ -399,6 +399,12 @@ img {
 .profile {
   grid-area: profile;
   background-color: #EBF2F6;
+  padding: 40px
+}
+
+table {
+  border-collapse: collapse;
+  max-width: 740px;
 }
 
 .column-name {
@@ -412,8 +418,9 @@ img {
 }
 
 .job-rows {
-  padding: 30px 0 30px 0;
+  padding: 30px 0 30px 40px;
   font-size: 14.5px;
+  background-color: white;
 }
 
 .social-menu {
