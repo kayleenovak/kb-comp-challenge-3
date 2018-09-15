@@ -399,7 +399,7 @@ img {
 .profile {
   grid-area: profile;
   background-color: #EBF2F6;
-  padding: 40px 0 0 50px;
+  padding: 40px 0 50px 50px;
 }
 
 table {
