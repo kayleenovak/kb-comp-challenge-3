@@ -11,7 +11,7 @@ body {
                        "aside overview       overview      overview"
                        "aside toggle-options toggle-options toggle-options"
                        "aside graphs         graphs         graphs"
-                       "aside profile        profile        social-menu";
+                       "aside profile        profile        profile";
   font-family: 'Open Sans', sans-serif;
 }
 
@@ -401,6 +401,8 @@ img {
   grid-area: profile;
   background-color: #EBF2F6;
   padding: 40px 0 50px 50px;
+  display: grid;
+  grid-template-columns: 3fr 1fr;
 }
 
 table {
@@ -453,7 +455,6 @@ table {
 }
 
 .social-menu {
-  grid-area: social-menu;
   background-color: #EBF2F6;
   padding: 35px 50px 0 50px;
 }
