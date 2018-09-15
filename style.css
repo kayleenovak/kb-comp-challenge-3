@@ -276,6 +276,7 @@ label {
   width: 100%;
   display: grid;
   grid-template-columns: repeat(3, 1fr) 2fr;
+  grid-auto-rows: mincontent;
   padding: 0 40px 0 40px;
 }
 
@@ -455,3 +456,21 @@ table {
   grid-area: social-menu;
   background-color: lightgrey;
 }
+
+.social-btn {
+  width: 100%;
+  border: none;
+}
+
+.facebook-btn {
+  background: #4A66C4;
+}
+
+.twitter-btn {
+  background: #00A7F3;
+}
+
+.linkedin-btn {
+  background: #007FC0;
+}
+
