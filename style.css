@@ -399,6 +399,56 @@ img {
 .profile {
   grid-area: profile;
   background-color: #EBF2F6;
+  padding: 40px 0 50px 50px;
+}
+
+table {
+  border-collapse: collapse;
+  max-width: 740px;
+  color: #6D7C96;
+}
+
+.column-name {
+  width: 165px;
+  padding: 30px 0 30px 0;
+  border: none;
+  text-align: left;
+  color: white;
+  font-size: 15px;
+}
+
+.second-column {
+  text-align: left;
+}
+
+.job-edit-btn {
+  background-color: #7A89A7;
+  color: white;
+  font-size: 15px;
+  padding: 10px 15px;
+  font-weight: 600;
+}
+
+.row-title {
+  font-size: 14px !important;
+  font-weight: 700;
+}
+
+.job-description {
+  background-color: #6D7C96;
+}
+
+.job-rows {
+  padding: 30px 0 30px 0px;
+  font-size: 15.5px;
+  background-color: white;
+  border-bottom: 1px solid #EDF2F5;
+  border-width: 30%;
+}
+
+.table-no-border {
+  width: 5%;
+  border: none !important;
 }
 
 .social-menu {
