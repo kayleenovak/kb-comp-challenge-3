@@ -414,10 +414,19 @@ table {
   border: none;
   text-align: left;
   color: white;
+  font-size: 15px;
 }
 
 .second-column {
   text-align: left;
+}
+
+.job-edit-btn {
+  background-color: #7A89A7;
+  color: white;
+  font-size: 15px;
+  padding: 10px 15px;
+  font-weight: 600;
 }
 
 .row-title {
