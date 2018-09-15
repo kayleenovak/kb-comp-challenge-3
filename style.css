@@ -246,11 +246,11 @@ label {
 .toggle-options {
   grid-area: toggle-options;
   height: 70px;
+  margin: 0;
+  padding: 0 20% 0 42px;
   display: flex;
   justify-content: space-between;
   align-content: top;
-  margin: 0;
-  padding: 0 250px 0 42px;
   border-bottom: 2px solid #EBEBEB;
 }
 
@@ -260,23 +260,31 @@ label {
   font-size: 14px;
 }
 
+.job-board-btn {
+  white-space: nowrap;
+}
+
 .toggle-btn:hover {
   border-bottom: 4px solid #0298F0;
 }
 
 .graphs {
   grid-area: graphs;
-  background-color: white;
+  background-color: #EBF2F6;
   height: 370px;
+  width: 100%;
+}
+
+.graph-size {
   display: flex;
   align-items: center;
-  width: 100%;
+  margin: 20px 25px 0 40px;
 }
 
 /*Begin of graph styling*/
 
 .single-chart {
-  width: 16%;
+  width: 22%;
 }
 
 .circular-chart {
@@ -287,7 +295,7 @@ label {
 
 .circle-bg {
   fill: none;
-  stroke: #eee;
+  stroke: #D7E4EC;
   stroke-width: 2.3;
 }
 
@@ -333,8 +341,8 @@ span {
 }
 
 .bar-graph {
-  width: 40%;
-  float: right;
+  width: 42%;
+  float: right; 
 }
 /*end graph syling*/
 
