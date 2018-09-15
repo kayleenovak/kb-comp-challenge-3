@@ -63,6 +63,7 @@ aside {
 button {
   border: none;
   font-size: 12px;
+  background-color: white;
 }
 
 .nav-btn {
@@ -273,24 +274,17 @@ label {
   background-color: #EBF2F6;
   height: 370px;
   width: 100%;
-}
-
-.graph-size {
-  display: flex;
-  align-items: center;
-  margin: 20px 25px 0 40px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr) 2fr;
 }
 
 /*Begin of graph styling*/
-
-.single-chart {
-  width: 22%;
-}
 
 .circular-chart {
   margin: 10px auto;
   max-width: 80%;
   max-height: 250px;
+  display: flex;
 }
 
 .circle-bg {
@@ -340,9 +334,37 @@ span {
   font-size: 5px;
 }
 
-.bar-graph {
-  width: 42%;
-  float: right; 
+.graph-label {
+  font-size: 14px;
+  background-color: white;
+  height: 40px;
+  text-align: center;
+  padding: 12px 0;
+  border-radius: 20px;
+  border: 1px solid lightgrey;
+  position: relative;
+}
+
+.label-circle {
+  grid-column: span 3;
+  display: flex;
+  justify-content: center;
+}
+
+.label-bar {
+  display: flex;
+}
+
+.label-circle-graph {
+  width: 230px;
+}
+
+.label-bar-graph {
+  width: 160px;
+}
+
+img {
+  width: 100%;
 }
 /*end graph syling*/
 
