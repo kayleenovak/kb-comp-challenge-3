@@ -246,11 +246,11 @@ label {
 .toggle-options {
   grid-area: toggle-options;
   height: 70px;
+  margin: 0;
+  padding: 0 20% 0 42px;
   display: flex;
   justify-content: space-between;
   align-content: top;
-  margin: 0;
-  padding: 0 250px 0 42px;
   border-bottom: 2px solid #EBEBEB;
 }
 
@@ -260,16 +260,91 @@ label {
   font-size: 14px;
 }
 
+.job-board-btn {
+  white-space: nowrap;
+}
+
 .toggle-btn:hover {
   border-bottom: 4px solid #0298F0;
 }
 
-
 .graphs {
   grid-area: graphs;
-  background-color: white;
+  background-color: #EBF2F6;
   height: 370px;
+  width: 100%;
 }
+
+.graph-size {
+  display: flex;
+  align-items: center;
+  margin: 20px 25px 0 40px;
+}
+
+/*Begin of graph styling*/
+
+.single-chart {
+  width: 22%;
+}
+
+.circular-chart {
+  margin: 10px auto;
+  max-width: 80%;
+  max-height: 250px;
+}
+
+.circle-bg {
+  fill: none;
+  stroke: #D7E4EC;
+  stroke-width: 2.3;
+}
+
+.circle {
+  fill: none;
+  stroke-width: 2.3;
+  stroke-linecap: round;
+  animation: progress 1s ease-out forwards;
+}
+
+@keyframes progress {
+  0% {
+    stroke-dasharray: 0 100;
+  }
+}
+
+.circular-chart.teal .circle {
+  stroke: #00BEC4;
+}
+
+.circular-chart.blue .circle {
+  stroke: #009FFE;
+}
+
+.circular-chart.purple .circle {
+  stroke: #BC62B0;
+}
+
+.percentage {
+  fill: #666;
+  font-family: sans-serif;
+  font-size: 8px;
+  text-anchor: middle;
+  width: 100px;
+}
+
+.graph-title {
+  font-size: 3px;
+}
+
+span {
+  font-size: 5px;
+}
+
+.bar-graph {
+  width: 42%;
+  float: right; 
+}
+/*end graph syling*/
 
 .profile {
   grid-area: profile;
