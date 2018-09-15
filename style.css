@@ -276,14 +276,13 @@ label {
   width: 100%;
   display: grid;
   grid-template-columns: repeat(3, 1fr) 2fr;
-  grid-template-rows: 70%;
-  padding: 0 25px 0 20px;
+  padding: 0 40px 0 40px;
 }
 
 /*Begin of graph styling*/
 
 .circular-chart {
-  margin: 50px auto 0 auto;
+  margin: 58px 0 0 0;
   max-width: 80%;
   max-height: 250px;
   display: flex;
@@ -364,14 +363,42 @@ label {
 }
 
 img {
-  margin-top: 30px;
+  margin: 30px 0 0 0;
   width: 100%;
+}
+
+.hr {
+  margin-top: 20px; 
+}
+
+.hr-div {
+  display: flex;
+  flex-direction: row;
+}
+
+.mid-hr {
+  width: 36%;
+  margin-top: 20px;
+}
+
+.mid-left-hr {
+  margin-right: 10px;
+}
+
+.mid-right-hr {
+  margin-left: 10px;
+}
+
+.expand-btn {
+  width: 40px;
+  height: 40px;
+  border-radius: 20px;
 }
 /*end graph syling*/
 
 .profile {
   grid-area: profile;
-  background-color: grey;
+  background-color: #EBF2F6;
 }
 
 .social-menu {
