@@ -305,7 +305,7 @@ label {
   display: grid;
   grid-template-columns: repeat(3, 1fr) 2fr;
   grid-auto-rows: mincontent;
-  padding: 50px 40px 0 40px;
+  padding: 50px 50px 0 50px;
 }
 
 /*Begin of graph styling*/
