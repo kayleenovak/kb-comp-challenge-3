@@ -301,17 +301,18 @@ label {
   display: grid;
   grid-template-columns: repeat(3, 1fr) 2fr;
   grid-auto-rows: mincontent;
-  padding: 0 40px 0 40px;
+  padding: 50px 40px 0 40px;
 }
 
 /*Begin of graph styling*/
 
 .circular-chart {
-  margin: 58px 0 0 0;
   max-width: 80%;
   max-height: 250px;
-  display: flex;
-  align-items: center;
+}
+
+.circle-graph-cont {
+  max-width: 200px
 }
 
 .circle-bg {
@@ -364,7 +365,6 @@ label {
   height: 37px;
   text-align: center;
   padding: 10px 0;
-  margin: 40px;
   border-radius: 20px;
   border: 1px solid lightgrey;
   position: relative;
@@ -390,7 +390,7 @@ label {
 }
 
 img {
-  margin: 30px 0 0 0;
+  margin-top: -5px;
   width: 100%;
 }
 
