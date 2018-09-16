@@ -283,15 +283,15 @@ label {
   grid-area: toggle-options;
   height: 65px;
   margin: 0;
-  padding: 0 20% 0 42px;
+  padding-left: 42px;
   display: flex;
-  justify-content: space-between;
   align-content: top;
   border-bottom: 2px solid #EBEBEB;
 }
 
 .toggle-btn {
   border-bottom: 4px solid transparent;
+  margin: 10px;
   font-weight: 700;
   font-size: 14px;
   color: #8894A6;
@@ -609,55 +609,7 @@ table {
     display: none !important;
   }
 
-  .graphs {
-  height: 1200px;
-  width: 100%;
-  display: grid;
-  grid-template-columns: none;
-  grid-template-areas: "teal blue purple"
-                       "circle-lab circle-lab circle-lab"
-                       "bar bar bar"
-                       "bar-g bar-g bar-g"
-                       "hr-section hr-section hr-section";
-  grid-auto-rows: mincontent;
-  padding: 50px 125px 0 125px;
-}
-
-.circular-chart.teal {
-  grid-area: teal;
-  max-width: 100%;
-  margin-right: 20px;
-}
-
-.circular-chart.blue {
-  grid-area: blue;
-  max-width: 100%;
-  margin-right: 20px;
-}
-
-.circular-chart.purple {
-  grid-area: purple;
-  max-width: 100%;
-  margin-right: 20px;
-}
-
-.bar-graph {
-  grid-area: bar;
-  max-width: 60%;
-}
-
-.label-circle {
-  grid-area: circle-lab;
-  margin-top: 0;
-  position: relative;
-  bottom: 25px;
-}
-
-.label-bar {
-  grid-area: bar-g;
-}
-
-.hr-section {
-  grid-area: hr-section;
+.toggle-options {
+  padding: 0 45px 0 42px;
 }
 }
