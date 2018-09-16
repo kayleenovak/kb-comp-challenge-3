@@ -464,7 +464,10 @@ table {
   font-size: 19px;
   font-weight: 600;
   margin-bottom: 15px;
+}
 
+.second-heading {
+  margin-top: 15px;
 }
 
 .social-btn {
@@ -499,22 +502,39 @@ table {
 
 .social-section {
   padding-top: 20px;
+  font-size: 0;
+  position: relative;
+  border-bottom: 2px solid;
 }
 
 .social-para {
-  font-size: 13px;
+  font-size: 13px !important;
   line-height: 1.6;
   color: #6E798C;
   margin-bottom: 25px;
 }
 
 .social-input {
-  height: 45px;
+  height: 48px;
+  width: 80%;
   border: none;
+  border-radius: 5px 0 0 5px;
+  font-size: 13px !important;
+  margin-bottom: 40px;
 }
 
 .social-input::placeholder {
   font-size: 13px;
   padding: 10px 15px 22px 15px;
   font-weight: 600;
+}
+
+.copy-btn {
+  height: 48px;
+  width: 20%;
+  margin: 0;
+  border-radius: 0 5px 5px 0;
+  background-color: #00BEC4;
+  color: white;
+  position: absolute;
 }
