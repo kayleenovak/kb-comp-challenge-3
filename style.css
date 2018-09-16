@@ -15,6 +15,10 @@ body {
   font-family: 'Open Sans', sans-serif;
 }
 
+button {
+  cursor: pointer;
+}
+
 aside {
   grid-area: aside;
   background-color: #343F53;
@@ -203,15 +207,22 @@ label {
   font-weight: 500;
   margin-top: 10px;
   margin-bottom: 0;
+  color: #4E505F;
 }
 
 .location {
   margin-top: 12px;
   margin-left: 5px;
+  color: #8894A6;
 }
 
 .location-icon {
   margin-right: 2px;
+}
+
+.preview-link {
+  text-decoration: none;
+  color: #4AC4FF;
 }
 
 .overview-btns {
@@ -241,7 +252,7 @@ label {
 }
 
 .circle-icon {
-  color: green;
+  color: #6FCF3B;
 }
 
 .toggle-options {
