@@ -508,3 +508,13 @@ table {
   margin-bottom: 25px;
 }
 
+.social-input {
+  height: 45px;
+  border: none;
+}
+
+.social-input::placeholder {
+  font-size: 13px;
+  padding: 10px 15px 22px 15px;
+  font-weight: 600;
+}
