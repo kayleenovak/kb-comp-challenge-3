@@ -296,7 +296,7 @@ label {
 .graphs {
   grid-area: graphs;
   background-color: #EBF2F6;
-  height: 380px;
+  height: 400px;
   width: 100%;
   display: grid;
   grid-template-columns: repeat(3, 1fr) 2fr;
@@ -363,7 +363,7 @@ label {
 
 .graph-label {
   font-size: 14px;
-  background-color: white;
+  background-color: #FAFAFC;
   height: 37px;
   text-align: center;
   padding: 10px 0;
@@ -375,12 +375,14 @@ label {
 }
 
 .label-circle {
+  margin-top: 20px;
   grid-column: span 3;
   display: flex;
   justify-content: center;
 }
 
 .label-bar {
+  margin-top: 20px;
   display: flex;
   justify-content: center;
 }
@@ -394,17 +396,19 @@ label {
 }
 
 img {
-  margin-top: -5px;
+  margin-top: -15px;
   width: 100%;
 }
 
 .hr {
-  margin-top: 20px; 
+  margin-top: 70px; 
+  color: #D1DAE3;
 }
 
 .hr-div {
   display: flex;
   flex-direction: row;
+  margin-top: 50px;
 }
 
 .mid-hr {
@@ -424,7 +428,12 @@ img {
   width: 40px;
   height: 40px;
   border-radius: 20px;
+  background-color: #FAFAFC;
+  border: 2px solid #D1DAE3;
+  color: #9AA3B0;
 }
+
+
 /*end graph syling*/
 
 .profile {
