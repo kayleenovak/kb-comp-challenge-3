@@ -442,10 +442,11 @@ table {
 }
 
 .job-rows {
-  padding: 30px 0 30px 0px;
+  height: 85px;
+  padding: 33px 0 33px 0px;
   font-size: 15.5px;
   background-color: white;
-  border-bottom: 1px solid #EDF2F5;
+  border-bottom: 2px solid #EDF2F5;
   border-width: 30%;
 }
 
@@ -468,6 +469,7 @@ table {
 
 .second-heading {
   margin-top: 15px;
+  border-bottom: none !important;
 }
 
 .social-btn {
