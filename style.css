@@ -281,6 +281,7 @@ label {
   border-bottom: 4px solid transparent;
   font-weight: 700;
   font-size: 14px;
+  color: #8894A6;
 }
 
 .job-board-btn {
@@ -289,6 +290,7 @@ label {
 
 .toggle-btn:hover {
   border-bottom: 4px solid #0298F0;
+  color: #4F5160;
 }
 
 .graphs {
