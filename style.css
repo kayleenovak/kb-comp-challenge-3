@@ -291,10 +291,14 @@ label {
 
 .toggle-btn {
   border-bottom: 4px solid transparent;
-  margin: 10px;
+  margin: 0 10px;
   font-weight: 700;
   font-size: 14px;
   color: #8894A6;
+}
+
+.expand-toggle {
+  display: none;
 }
 
 .job-board-btn {
@@ -609,7 +613,35 @@ table {
     display: none !important;
   }
 
-.toggle-options {
-  padding: 0 45px 0 42px;
+  .toggle-options {
+    padding: 0 45px 0 42px;
+  }
 }
+
+@media screen and (max-width: 915px) {
+  .overview {
+    display: flex;
+    flex-direction: column;
+    height: 190px
+  }
+
+  .job-listing {
+    margin-bottom: 0
+  }
+
+  .overview-btns {
+    margin: 18px 0 0 50px;
+  }
+
+  .expand-toggle {
+    display: inline-block;
+  }
+
+  .notifications-toggle {
+    display: none;
+  }
+
+  .broadcast-toggle {
+    display: none;
+  }
 }
