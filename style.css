@@ -190,7 +190,7 @@ label {
   padding-left: 20px;
 }
 
-.search-bar:placeholder {
+.search-bar::placeholder {
   color: #B1B9C5 !important;
 }
 
