@@ -11,7 +11,7 @@ body {
                        "aside overview       overview      overview"
                        "aside toggle-options toggle-options toggle-options"
                        "aside graphs         graphs         graphs"
-                       "aside profile        profile        social-menu";
+                       "aside profile        profile        profile";
   font-family: 'Open Sans', sans-serif;
 }
 
@@ -276,6 +276,7 @@ label {
   width: 100%;
   display: grid;
   grid-template-columns: repeat(3, 1fr) 2fr;
+  grid-auto-rows: mincontent;
   padding: 0 40px 0 40px;
 }
 
@@ -400,11 +401,13 @@ img {
   grid-area: profile;
   background-color: #EBF2F6;
   padding: 40px 0 50px 50px;
+  display: grid;
+  grid-template-columns: 70% 30%;
 }
 
 table {
   border-collapse: collapse;
-  max-width: 740px;
+  margin-right: 50px;
   color: #6D7C96;
 }
 
@@ -452,6 +455,93 @@ table {
 }
 
 .social-menu {
-  grid-area: social-menu;
-  background-color: lightgrey;
+  background-color: #EBF2F6;
+  padding: 0 50px 0 0;
+}
+
+.social-heading {
+  color: #59677C;
+  font-size: 19px;
+  font-weight: 600;
+  margin-bottom: 15px;
+}
+
+.second-heading {
+  margin-top: 15px;
+}
+
+.social-btn {
+  width: 100%;
+  border: none;
+  color: white;
+  height: 54px;
+  border-radius: 5px;
+  margin-bottom: 19px;
+  font-size: 15px;
+  font-weight: 600;
+  position: relative;
+}
+
+.social-icon {
+  position: absolute;
+  left: 20px;
+  font-size: 18px;
+}
+
+.facebook-btn {
+  background: #4A66C4;
+}
+
+.twitter-btn {
+  background: #00A7F3;
+}
+
+.linkedin-btn {
+  background: #007FC0;
+}
+
+.social-section {
+  padding-top: 20px;
+  font-size: 0;
+  position: relative;
+  border-bottom: 2px solid #D1DAE3;
+}
+
+.social-para {
+  font-size: 13px !important;
+  line-height: 1.6;
+  color: #6E798C;
+  margin-bottom: 25px;
+  color: #788294;
+}
+
+.social-input {
+  height: 48px;
+  width: 80%;
+  border: none;
+  border-radius: 5px 0 0 5px;
+  font-size: 13px !important;
+  margin-bottom: 40px;
+}
+
+.social-input::placeholder {
+  font-size: 13px;
+  padding: 10px 15px 22px 15px;
+  font-weight: 600;
+  color: #788294;
+}
+
+.copy-btn {
+  height: 48px;
+  width: 20%;
+  margin: 0;
+  border-radius: 0 5px 5px 0;
+  background-color: #00BEC4;
+  color: white;
+  position: absolute;
+}
+
+.email-input {
+  width: 100%;
+  border-radius: 5px 5px;
 }
