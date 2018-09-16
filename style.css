@@ -459,13 +459,21 @@ table {
   padding: 0 50px 0 0;
 }
 
+.social-heading {
+  color: #6E798C;
+  font-size: 19px;
+  font-weight: 600;
+  margin-bottom: 15px;
+
+}
+
 .social-btn {
   width: 100%;
   border: none;
   color: white;
-  height: 55px;
+  height: 54px;
   border-radius: 5px;
-  margin-bottom: 20px;
+  margin-bottom: 19px;
   font-size: 15px;
   font-weight: 600;
   position: relative;
@@ -489,5 +497,14 @@ table {
   background: #007FC0;
 }
 
-.
+.social-section {
+  padding-top: 20px;
+}
+
+.social-para {
+  font-size: 13px;
+  line-height: 1.6;
+  color: #6E798C;
+  margin-bottom: 25px;
+}
 
