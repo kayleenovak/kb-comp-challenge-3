@@ -225,15 +225,26 @@ label {
   color: #4AC4FF;
 }
 
+.preview-link:hover {
+  text-decoration: underline;
+}
+
 .overview-btns {
   float: right;
   margin: 60px 50px 0 0;
 }
 
+.overview-btn:hover,
+.overview-open:hover {
+  background: #009FFE;
+  border: transparent;
+  color: white;
+}
+
 .overview-open {
   height: 44px;
   width: 100px;
-  border: 3px solid #EBEBEB;
+  border: 2px solid #D1DAE3;
   border-radius: 22px;
   font-size: 13.5px;
   margin: 5px;
@@ -244,7 +255,7 @@ label {
 .overview-btn {
   height: 44px;
   width: 44px;
-  border: 3px solid #EBEBEB;
+  border: 2px solid #D1DAE3;
   border-radius: 22px;
   font-size: 16px;
   margin: 0 0 0 10px;
