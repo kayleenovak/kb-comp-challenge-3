@@ -171,7 +171,7 @@ label {
 .open-menu {
   color: #4AC4FF;
   position: absolute;
-  left: 25px;
+  left: 15px;
   top: 30px;
 
 }
@@ -598,4 +598,66 @@ table {
 .email-input {
   width: 100%;
   border-radius: 5px 5px;
+}
+
+@media screen and (max-width: 1125px) {
+  aside {
+    display: none;
+  }
+
+  .open-menu {
+    display: none !important;
+  }
+
+  .graphs {
+  height: 1200px;
+  width: 100%;
+  display: grid;
+  grid-template-columns: none;
+  grid-template-areas: "teal blue purple"
+                       "circle-lab circle-lab circle-lab"
+                       "bar bar bar"
+                       "bar-g bar-g bar-g"
+                       "hr-section hr-section hr-section";
+  grid-auto-rows: mincontent;
+  padding: 50px 125px 0 125px;
+}
+
+.circular-chart.teal {
+  grid-area: teal;
+  max-width: 100%;
+  margin-right: 20px;
+}
+
+.circular-chart.blue {
+  grid-area: blue;
+  max-width: 100%;
+  margin-right: 20px;
+}
+
+.circular-chart.purple {
+  grid-area: purple;
+  max-width: 100%;
+  margin-right: 20px;
+}
+
+.bar-graph {
+  grid-area: bar;
+  max-width: 60%;
+}
+
+.label-circle {
+  grid-area: circle-lab;
+  margin-top: 0;
+  position: relative;
+  bottom: 25px;
+}
+
+.label-bar {
+  grid-area: bar-g;
+}
+
+.hr-section {
+  grid-area: hr-section;
+}
 }
