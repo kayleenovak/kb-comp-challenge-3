@@ -356,7 +356,8 @@ label {
 }
 
 .graph-title {
-  font-size: 3px;
+  font-size: .18em;
+  font-weight: 600;
   fill: #8894A6;
 }
 
@@ -369,6 +370,8 @@ label {
   border-radius: 20px;
   border: 1px solid lightgrey;
   position: relative;
+  color: #57657A;
+  font-weight: 600;
 }
 
 .label-circle {
