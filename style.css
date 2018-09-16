@@ -402,12 +402,12 @@ img {
   background-color: #EBF2F6;
   padding: 40px 0 50px 50px;
   display: grid;
-  grid-template-columns: 3fr 1fr;
+  grid-template-columns: 70% 30%;
 }
 
 table {
   border-collapse: collapse;
-  max-width: 740px;
+  margin-right: 50px;
   color: #6D7C96;
 }
 
@@ -456,7 +456,7 @@ table {
 
 .social-menu {
   background-color: #EBF2F6;
-  padding: 35px 50px 0 50px;
+  padding: 35px 50px 0 0;
 }
 
 .social-btn {
@@ -468,6 +468,13 @@ table {
   margin-bottom: 20px;
   font-size: 15px;
   font-weight: 600;
+  position: relative;
+}
+
+.social-icon {
+  position: absolute;
+  left: 20px;
+  font-size: 18px;
 }
 
 .facebook-btn {
