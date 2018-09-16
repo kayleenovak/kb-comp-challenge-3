@@ -190,6 +190,10 @@ label {
   padding-left: 20px;
 }
 
+.search-bar:placeholder {
+  color: #B1B9C5 !important;
+}
+
 .overview {
   grid-area: overview;
   background-color: white;
