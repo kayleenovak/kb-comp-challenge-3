@@ -340,6 +340,7 @@ label {
 
 .circular-chart.blue .circle {
   stroke: #009FFE;
+  margin: 0 auto;
 }
 
 .circular-chart.purple .circle {
