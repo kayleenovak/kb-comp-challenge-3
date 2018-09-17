@@ -203,6 +203,10 @@ label {
   color: #B1B9C5 !important;
 }
 
+.expand-search-btn {
+  display: none;
+}
+
 .overview {
   grid-area: overview;
   background-color: white;
@@ -809,6 +813,23 @@ table {
 }
 
 @media screen and (max-width: 550px) {
+  .search-section {    
+    grid-template-columns: 15% 70% 15%;
+  }
+
+  .search-btn {
+    display: none;
+  }
+
+  .hamburger-menu {
+    display: block;
+  }
+
+  .expand-search-btn {
+    display: block;
+    color: #9AA3B0;
+  }
+
   .overview {
     height: 100px;
   }
@@ -856,5 +877,20 @@ table {
   .graphs {
     grid-template-rows: 140px 60px 140px 70px;
     height: 490px;
-}
+  }
+
+  .graph-label {
+    font-size: 12px;
+    height: 30px;
+    border-radius: 15px;
+    padding: 10px 10px 22px 10px;
+  }
+
+  .label-circle-graph {
+    width: 200px;
+  }
+
+  .label-bar-graph {
+    width: 140px;
+  }
 }
