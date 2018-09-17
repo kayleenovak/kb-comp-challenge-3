@@ -809,6 +809,33 @@ table {
 }
 
 @media screen and (max-width: 550px) {
+  .overview {
+    height: 100px;
+  }
+
+  .job-title {
+    font-size: 17px
+  }
+
+  .location {
+    font-size: 12px;
+  }
+
+  .overview-open {
+    height: 30px;
+    width: 70px;
+    border-radius: 15px;
+    font-size: 11.5px;
+  }
+
+  .overview-btn {
+    height: 30px;
+    width: 30px;
+    border-radius: 15px;
+    font-size: 12px;
+    margin-left: 5px;
+  }
+
   .job-toggle {
     display: none;
   }
