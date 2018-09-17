@@ -836,6 +836,15 @@ table {
     margin-left: 5px;
   }
 
+  .toggle-options {
+    height: 50px;
+    margin-top: 10px;
+  }
+
+  .toggle-btn {
+    font-size: 12px;
+  }
+
   .job-toggle {
     display: none;
   }
