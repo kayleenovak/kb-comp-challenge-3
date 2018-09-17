@@ -852,4 +852,9 @@ table {
   .applicants-toggle {
     display: none;
   }
+
+  .graphs {
+    grid-template-rows: 140px 60px 140px 70px;
+    height: 490px;
+}
 }
