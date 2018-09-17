@@ -693,4 +693,51 @@ table {
     width: 44%;
     margin-top: 20px;
   }
+
+  .profile {
+    display: grid;
+    grid-template-areas: "job-info job-info"
+                         "social-menu social-menu";
+  }
+
+  .job-info {
+    grid-area: job-info;
+  }
+
+  .social-menu {
+    grid-area: social-menu;
+    display: grid;
+    grid-template-areas: "widgets social-btns";
+    grid-template-columns: 57% 40%;
+    grid-gap: 20px;
+  }
+
+  .social-btns {
+    grid-area: social-btns;
+    margin-top: 20px; 
+  }
+
+  .widgets{
+    grid-area: widgets;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .activity-toggle {
+    display: none;
+  }
+
+  .interviews-toggle {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .job-toggle {
+    display: none;
+  }
+
+  .applicants-toggle {
+    display: none;
+  }
 }
