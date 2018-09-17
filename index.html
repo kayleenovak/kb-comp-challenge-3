@@ -6,6 +6,7 @@
   <link rel="stylesheet" type="text/css" href="style.css">
   <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600,700" rel="stylesheet">
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
 <body>
   <aside>
@@ -69,58 +70,61 @@
   <section class="toggle-options">
     <button class="toggle-btn">SUMMARY</button>
     <button class="toggle-btn">APPLICANTS</button>
-    <button class="toggle-btn job-board-btn">JOB BOARD</button>
-    <button class="toggle-btn">INTERVIEWS</button>
-    <button class="toggle-btn">ACTIVITY</button>
-    <button class="toggle-btn">BROADCAST</button>
-    <button class="toggle-btn">NOTIFICATIONS</button>
+    <button class="toggle-btn job-board-btn job-toggle">JOB BOARD</button>
+    <button class="toggle-btn interviews-toggle">INTERVIEWS</button>
+    <button class="toggle-btn activity-toggle">ACTIVITY</button>
+    <button class="toggle-btn broadcast-toggle">BROADCAST</button>
+    <button class="toggle-btn notifications-toggle">NOTIFICATIONS</button>
+    <button class="toggle-btn expand-toggle">➤</button>
   </section>
   <section class="graphs">
-    <svg viewBox="0 0 36 36" class="circular-chart teal">
-      <path class="circle-bg"
-        d="M18 2.0845
-          a 15.9155 15.9155 0 0 1 0 31.831
-          a 15.9155 15.9155 0 0 1 0 -31.831"
-      />
-      <path class="circle"
-        stroke-dasharray="60, 100"
-        d="M18 2.0845
-          a 15.9155 15.9155 0 0 1 0 31.831
-          a 15.9155 15.9155 0 0 1 0 -31.831"
-      />
-      <text x="18" y="18.35" class="percentage">3,154</text>
-      <text x="18" y="23.00" class="percentage graph-title">APPLICANTS</text>
-    </svg>
-    <svg viewBox="0 0 36 36" class="circular-chart blue">
-      <path class="circle-bg"
-        d="M18 2.0845
-          a 15.9155 15.9155 0 0 1 0 31.831
-          a 15.9155 15.9155 0 0 1 0 -31.831"
-      />
-      <path class="circle"
-        stroke-dasharray="30, 100"
-        d="M18 2.0845
-          a 15.9155 15.9155 0 0 1 0 31.831
-          a 15.9155 15.9155 0 0 1 0 -31.831"
-      />
-      <text x="18" y="18.35" class="percentage">1,546</text>
-      <text x="18" y="23.00" class="percentage graph-title">INTERVIEWS</text>
-    </svg>
-    <svg viewBox="0 0 36 36" class="circular-chart purple">
-      <path class="circle-bg"
-        d="M18 2.0845
-          a 15.9155 15.9155 0 0 1 0 31.831
-          a 15.9155 15.9155 0 0 1 0 -31.831"
-      />
-      <path class="circle"
-        stroke-dasharray="17, 100"
-        d="M18 2.0845
-          a 15.9155 15.9155 0 0 1 0 31.831
-          a 15.9155 15.9155 0 0 1 0 -31.831"
-      />
-      <text x="18" y="18.35" class="percentage">914</text>
-      <text x="18" y="23.00" class="percentage graph-title">FORWARDS</text>
-    </svg>
+    <div class="circle-div">
+      <svg viewBox="0 0 36 36" class="circular-chart teal">
+        <path class="circle-bg"
+          d="M18 2.0845
+            a 15.9155 15.9155 0 0 1 0 31.831
+            a 15.9155 15.9155 0 0 1 0 -31.831"
+        />
+        <path class="circle"
+          stroke-dasharray="60, 100"
+          d="M18 2.0845
+            a 15.9155 15.9155 0 0 1 0 31.831
+            a 15.9155 15.9155 0 0 1 0 -31.831"
+        />
+        <text x="18" y="18.35" class="percentage">3,154</text>
+        <text x="18" y="23.00" class="percentage graph-title">APPLICANTS</text>
+      </svg>
+      <svg viewBox="0 0 36 36" class="circular-chart blue">
+        <path class="circle-bg"
+          d="M18 2.0845
+            a 15.9155 15.9155 0 0 1 0 31.831
+            a 15.9155 15.9155 0 0 1 0 -31.831"
+        />
+        <path class="circle"
+          stroke-dasharray="30, 100"
+          d="M18 2.0845
+            a 15.9155 15.9155 0 0 1 0 31.831
+            a 15.9155 15.9155 0 0 1 0 -31.831"
+        />
+        <text x="18" y="18.35" class="percentage">1,546</text>
+        <text x="18" y="23.00" class="percentage graph-title">INTERVIEWS</text>
+      </svg>
+      <svg viewBox="0 0 36 36" class="circular-chart purple">
+        <path class="circle-bg"
+          d="M18 2.0845
+            a 15.9155 15.9155 0 0 1 0 31.831
+            a 15.9155 15.9155 0 0 1 0 -31.831"
+        />
+        <path class="circle"
+          stroke-dasharray="17, 100"
+          d="M18 2.0845
+            a 15.9155 15.9155 0 0 1 0 31.831
+            a 15.9155 15.9155 0 0 1 0 -31.831"
+        />
+        <text x="18" y="18.35" class="percentage">914</text>
+        <text x="18" y="23.00" class="percentage graph-title">FORWARDS</text>
+      </svg>
+    </div>
     <img src="images/graph.png" class="bar-graph">
     <div class="label-circle">
       <p class="graph-label label-circle-graph">TOTALS - Out of <b>5,231</b> views</p>
@@ -128,7 +132,9 @@
     <div class="label-bar">
       <p class="graph-label label-bar-graph">APPLICANTS/DAY</p>
     </div>
-    <hr class="hr"><hr class="hr"><div class="hr-div"><hr class="mid-hr mid-left-hr"><button class="expand-btn">▲</button><hr class="mid-hr mid-right-hr"></div><hr class="hr">
+    <div class="hr-section">
+      <hr class="hr-left"><button class="expand-btn"><span class="expand-icon">▴</span></button><hr class="hr-right">
+    </div>
   </section>
   <section class="profile">
     <section class="job-info">
