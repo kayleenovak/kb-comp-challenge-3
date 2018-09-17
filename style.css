@@ -723,6 +723,18 @@ table {
 }
 
 @media screen and (max-width: 700px) {
+  .search-section {
+    height: 50px;
+  }
+
+  .search-icon {
+    font-size: 18px;
+  }
+
+  .search-bar::placeholder {
+    font-size: 14px;
+  }
+
   .activity-toggle {
     display: none;
   }
