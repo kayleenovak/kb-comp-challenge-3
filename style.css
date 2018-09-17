@@ -316,16 +316,24 @@ label {
   height: 400px;
   width: 100%;
   display: grid;
-  grid-template-columns: repeat(3, 1fr) 2fr;
-  grid-auto-rows: mincontent;
+  grid-template-columns: 60% 40%;
+  grid-auto-rows: 180px 50px;
+  grid-gap: 20px;
   padding: 50px 50px 0 50px;
 }
 
 /*Begin of graph styling*/
 
+.circle-div {
+  display: flex;
+  justify-content: space-between;
+}
+
 .circular-chart {
-  max-width: 80%;
-  max-height: 250px;
+  max-width: 230px;
+  width: 32%;
+  margin: 0;
+  display: inline-block;
 }
 
 .circle-graph-cont {
@@ -392,14 +400,11 @@ label {
 }
 
 .label-circle {
-  margin-top: 20px;
-  grid-column: span 3;
   display: flex;
   justify-content: center;
 }
 
 .label-bar {
-  margin-top: 20px;
   display: flex;
   justify-content: center;
 }
@@ -413,8 +418,8 @@ label {
 }
 
 img {
-  margin-top: -15px;
   width: 100%;
+  max-height: 100%
 }
 
 .hr {
@@ -643,5 +648,51 @@ table {
 
   .broadcast-toggle {
     display: none;
+  }
+
+  .graphs {
+    display: grid;
+    grid-template-columns: 200px 200px 200px;
+    grid-template-areas: "teal blue purple"
+                         "circle-lab circle-lab circle-lab"
+                         "bar bar bar"
+                         "bar-lab bar-lab bar-lab"
+                         "hr-div hr-div hr-div";
+    grid-template-rows: 200px 50px 150px 50px 50px;
+    height: 1200px;
+    justify-items: center;
+  }
+
+  .teal {
+    grid-area: teal;
+    min-height: 200px;
+  }
+
+  .blue {
+    grid-area: blue;
+    min-height: 200px;
+  }
+
+  .purple {
+    grid-area: purple;
+    min-height: 200px;
+  }
+
+  .label-circle-graph {
+    grid-area: circle-lab;
+  }
+
+  .bar-graph {
+    grid-area: bar;
+    max-height: 95%;
+    max-width: 45%
+  }
+
+  .label-bar {
+    grid-area: bar-lab;
+  }
+
+  .hr-section {
+    grid-area: hr-div;
   }
 }
