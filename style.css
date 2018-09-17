@@ -740,7 +740,7 @@ table {
   }
 
   .job-listing {
-    margin: 20px 20px;
+    margin: 20px 20px 15px 20px;
   }
 
   .job-title {
@@ -757,7 +757,7 @@ table {
 
   .toggle-options {
     height: 50px;
-    padding: 5px;
+    padding: 8px;
   }
 
   .activity-toggle {
@@ -766,6 +766,14 @@ table {
 
   .interviews-toggle {
     display: none;
+  }
+
+  .graphs {
+    padding: 20px 20px;
+    grid-gap: 0;
+    grid-template-rows: 200px 50px 190px 70px;
+    grid-column-gap: 20px;
+    height: 580px;
   }
 }
 
