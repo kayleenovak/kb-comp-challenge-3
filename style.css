@@ -316,8 +316,8 @@ label {
   height: 400px;
   width: 100%;
   display: grid;
-  grid-template-columns: 60% 40%;
-  grid-auto-rows: 180px 50px;
+  grid-template-columns: 60% 38%;
+  grid-auto-rows: 190px 50px;
   grid-gap: 20px;
   padding: 50px 50px 0 50px;
 }
@@ -422,28 +422,20 @@ img {
   max-height: 100%
 }
 
-.hr {
-  margin-top: 70px; 
-  color: #D1DAE3;
-}
-
-.hr-div {
+.hr-section {
+  grid-column: span 2;
   display: flex;
-  flex-direction: row;
-  margin-top: 50px;
+  justify-content: space-between;
 }
 
-.mid-hr {
-  width: 36%;
+.hr-left {
+  width: 46%;
   margin-top: 20px;
 }
 
-.mid-left-hr {
-  margin-right: 10px;
-}
-
-.mid-right-hr {
-  margin-left: 10px;
+.hr-right {
+  width: 46%;
+  margin-top: 20px;
 }
 
 .expand-btn {
@@ -453,6 +445,12 @@ img {
   background-color: #FAFAFC;
   border: 2px solid #D1DAE3;
   color: #9AA3B0;
+  font-size: 30px;
+}
+
+.expand-icon {
+  position: relative; 
+  bottom: 2px;
 }
 
 
