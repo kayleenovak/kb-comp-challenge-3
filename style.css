@@ -735,6 +735,31 @@ table {
     font-size: 14px;
   }
 
+  .overview {
+    height: 160px;
+  }
+
+  .job-listing {
+    margin: 20px 20px;
+  }
+
+  .job-title {
+    margin-top: 0;
+  }
+
+  .overview-btns {
+    margin: 0 0 0 20px;
+  }
+
+  .location {
+    margin-top: 7px;
+  }
+
+  .toggle-options {
+    height: 50px;
+    padding: 5px;
+  }
+
   .activity-toggle {
     display: none;
   }
