@@ -756,8 +756,7 @@ table {
   }
 
   .toggle-options {
-    height: 50px;
-    padding: 8px;
+    padding: 8px 8px 0 8px ;
   }
 
   .activity-toggle {
@@ -774,6 +773,38 @@ table {
     grid-template-rows: 200px 50px 190px 70px;
     grid-column-gap: 20px;
     height: 580px;
+  }
+
+  .profile {
+    padding: 20px 20px 20px 20px;
+  }
+
+  table {
+    margin: 0;
+  }
+
+  .job-info {
+    width: 100%;
+  }
+
+  .social-menu {
+    display: grid;
+    grid-template-columns: none;
+    grid-template-areas: "social-btns"
+                         "widgets";
+    justify-items: center;
+    padding: 0;
+    grid-gap: 0px;
+  }
+
+  .social-btns {
+    margin-top: 30px;
+    grid-area: social-btns;
+  }
+
+  .widgets {
+    grid-area: widgets;
+    width: 100%
   }
 }
 
