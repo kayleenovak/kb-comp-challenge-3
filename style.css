@@ -650,40 +650,29 @@ table {
 
   .graphs {
     display: grid;
-    grid-template-columns: 200px 200px 200px;
-    grid-template-areas: "teal blue purple"
+    grid-template-columns: none;
+    grid-template-areas: "circle circle circle"
                          "circle-lab circle-lab circle-lab"
                          "bar bar bar"
                          "bar-lab bar-lab bar-lab"
                          "hr-div hr-div hr-div";
-    grid-template-rows: 200px 50px 150px 50px 50px;
-    height: 1200px;
+    grid-template-rows: 200px 50px 200px 50px 50px;
     justify-items: center;
+    height: 700px;
   }
 
-  .teal {
-    grid-area: teal;
-    min-height: 200px;
+  .circle-div {
+    grid-area: circle;
   }
 
-  .blue {
-    grid-area: blue;
-    min-height: 200px;
-  }
-
-  .purple {
-    grid-area: purple;
-    min-height: 200px;
-  }
-
-  .label-circle-graph {
+  .label-circle {
     grid-area: circle-lab;
   }
 
   .bar-graph {
     grid-area: bar;
-    max-height: 95%;
-    max-width: 45%
+    max-height: 100%;
+    max-width: 70%;
   }
 
   .label-bar {
@@ -692,5 +681,16 @@ table {
 
   .hr-section {
     grid-area: hr-div;
+    width: 100%;
+  }
+
+  .hr-left {
+    width: 44%;
+    margin-top: 20px;
+  }
+
+  .hr-right {
+    width: 44%;
+    margin-top: 20px;
   }
 }
