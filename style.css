@@ -723,12 +723,88 @@ table {
 }
 
 @media screen and (max-width: 700px) {
+  .search-section {
+    height: 50px;
+  }
+
+  .search-icon {
+    font-size: 18px;
+  }
+
+  .search-bar::placeholder {
+    font-size: 14px;
+  }
+
+  .overview {
+    height: 160px;
+  }
+
+  .job-listing {
+    margin: 20px 20px 15px 20px;
+  }
+
+  .job-title {
+    margin-top: 0;
+  }
+
+  .overview-btns {
+    margin: 0 0 0 20px;
+  }
+
+  .location {
+    margin-top: 7px;
+  }
+
+  .toggle-options {
+    padding: 8px 8px 0 8px ;
+  }
+
   .activity-toggle {
     display: none;
   }
 
   .interviews-toggle {
     display: none;
+  }
+
+  .graphs {
+    padding: 20px 20px;
+    grid-gap: 0;
+    grid-template-rows: 200px 50px 190px 70px;
+    grid-column-gap: 20px;
+    height: 580px;
+  }
+
+  .profile {
+    padding: 20px 20px 20px 20px;
+  }
+
+  table {
+    margin: 0;
+  }
+
+  .job-info {
+    width: 100%;
+  }
+
+  .social-menu {
+    display: grid;
+    grid-template-columns: none;
+    grid-template-areas: "social-btns"
+                         "widgets";
+    justify-items: center;
+    padding: 0;
+    grid-gap: 0px;
+  }
+
+  .social-btns {
+    margin-top: 30px;
+    grid-area: social-btns;
+  }
+
+  .widgets {
+    grid-area: widgets;
+    width: 100%
   }
 }
 
