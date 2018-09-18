@@ -196,6 +196,7 @@ button {
 
 .expand-search-btn {
   display: none;
+  border-left: 2px solid #EBEBEB;
 }
 
 /* Job Overview Section */
