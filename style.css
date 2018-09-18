@@ -189,6 +189,10 @@ button {
   padding-left: 20px;
 }
 
+.add-user-icon {
+  border-left: 2px solid #EBEBEB;
+}
+
 .search-bar::placeholder {
   color: #B1B9C5 !important;
 }
@@ -746,7 +750,7 @@ button {
   }
 
   .overview-btns {
-    margin: 0 0 0 20px;
+    margin: 0 0 0 16px;
   }
 
   .location {
