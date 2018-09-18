@@ -888,6 +888,7 @@ button {
     height: 30px;
     border-radius: 15px;
     padding: 10px 10px 22px 10px;
+    margin-top: 8px;
   }
 
   .label-circle-graph {
