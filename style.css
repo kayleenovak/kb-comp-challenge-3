@@ -189,6 +189,10 @@ button {
   padding-left: 20px;
 }
 
+.add-user-icon {
+  border-left: 2px solid #EBEBEB;
+}
+
 .search-bar::placeholder {
   color: #B1B9C5 !important;
 }
@@ -509,7 +513,7 @@ button {
 
 .social-menu {
   background-color: #EBF2F6;
-  padding: 0 50px 0 0;
+  padding-right: 50px;
 }
 
 .social-heading {
@@ -690,10 +694,15 @@ button {
     display: grid;
     grid-template-areas: "job-info job-info"
                          "social-menu social-menu";
+    padding: 10px 50px 50px 50px;
   }
 
   .job-info {
     grid-area: job-info;
+  }
+
+  .job-table {
+    width: 100%;
   }
 
   .social-menu {
@@ -702,6 +711,7 @@ button {
     grid-template-areas: "widgets social-btns";
     grid-template-columns: 57% 40%;
     grid-gap: 20px;
+    padding-right: 0;
   }
 
   .social-btns {
@@ -740,7 +750,7 @@ button {
   }
 
   .overview-btns {
-    margin: 0 0 0 20px;
+    margin: 0 0 0 16px;
   }
 
   .location {
@@ -883,6 +893,7 @@ button {
     height: 30px;
     border-radius: 15px;
     padding: 10px 10px 22px 10px;
+    margin-top: 8px;
   }
 
   .label-circle-graph {
