@@ -198,8 +198,8 @@ button {
 }
 
 .expand-search-btn {
-  display: none;
   border-left: 2px solid #EBEBEB;
+  display: none;
 }
 
 /* Job Overview Section */
@@ -331,10 +331,10 @@ button {
 }
 
 .circular-chart {
+  display: inline-block;
+  margin: 0;
   max-width: 230px;
   width: 32%;
-  margin: 0;
-  display: inline-block;
 }
 
 .circle-graph-cont {
@@ -343,15 +343,15 @@ button {
 
 .circle-bg {
   fill: none;
-  stroke: #D7E4EC;
   stroke-width: 2.3;
+  stroke: #D7E4EC;
 }
 
 .circle {
-  fill: none;
-  stroke-width: 2.3;
-  stroke-linecap: round;
   animation: progress 1s ease-out forwards;
+  fill: none;
+  stroke-linecap: round;
+  stroke-width: 2.3;
 }
 
 @keyframes progress {
@@ -365,8 +365,8 @@ button {
 }
 
 .circular-chart.blue .circle {
-  stroke: #009FFE;
   margin: 0 auto;
+  stroke: #009FFE;
 }
 
 .circular-chart.purple .circle {
@@ -389,8 +389,8 @@ button {
 
 /* Bar Graph */
 .bar-graph {
-  width: 100%;
   max-height: 100%;
+  width: 100%;
 }
 
 /* Graph Labels */
@@ -429,8 +429,8 @@ button {
 }
 
 .hr {
-  width: 46%;
   margin-top: 20px;
+  width: 46%;
 }
 
 .expand-btn {
@@ -444,8 +444,8 @@ button {
 }
 
 .expand-icon {
-  position: relative; 
   bottom: 2px;
+  position: relative; 
 }
 
 /* Job Profile Section */
@@ -581,10 +581,10 @@ button {
 }
 
 .social-input::placeholder {
-  font-size: 13px;
-  padding: 10px 15px 22px 15px;
-  font-weight: 600;
   color: #788294;
+  font-size: 13px;
+  font-weight: 600;
+  padding: 10px 15px 22px 15px;
 }
 
 .copy-btn {
@@ -652,8 +652,8 @@ button {
                          "bar-lab bar-lab bar-lab"
                          "hr-div hr-div hr-div";
     grid-template-rows: 200px 50px 200px 50px 50px;
-    justify-items: center;
     height: 700px;
+    justify-items: center;
   }
 
   .circle-div {
@@ -679,14 +679,9 @@ button {
     width: 100%;
   }
 
-  .hr-left {
-    width: 44%;
+  .hr {
     margin-top: 20px;
-  }
-
-  .hr-right {
     width: 44%;
-    margin-top: 20px;
   }
 
   .profile {
@@ -705,11 +700,11 @@ button {
   }
 
   .social-menu {
-    grid-area: social-menu;
     display: grid;
+    grid-area: social-menu;
+    grid-gap: 20px;
     grid-template-areas: "widgets social-btns";
     grid-template-columns: 57% 40%;
-    grid-gap: 20px;
     padding-right: 0;
   }
 
@@ -760,24 +755,21 @@ button {
     padding: 8px 8px 0 8px ;
   }
 
-  .activity-toggle {
-    display: none;
-  }
-
+  .activity-toggle,
   .interviews-toggle {
     display: none;
   }
 
   .graphs {
-    padding: 20px 20px;
+    grid-column-gap: 20px;
     grid-gap: 0;
     grid-template-rows: 200px 50px 190px 70px;
-    grid-column-gap: 20px;
     height: 580px;
+    padding: 20px 20px;
   }
 
   .profile {
-    padding: 20px 20px 20px 20px;
+    padding: 20px 20px;
   }
 
   .job-info {
@@ -790,22 +782,22 @@ button {
 
   .social-menu {
     display: grid;
+    grid-gap: 0px;
     grid-template-columns: none;
     grid-template-areas: "social-btns"
                          "widgets";
     justify-items: center;
     padding: 0;
-    grid-gap: 0px;
   }
 
   .social-btns {
-    margin-top: 30px;
     grid-area: social-btns;
+    margin-top: 30px;
   }
 
   .widgets {
     grid-area: widgets;
-    width: 100%
+    width: 100%;
   }
 }
 
@@ -828,8 +820,8 @@ button {
   }
 
   .expand-search-btn {
-    display: block;
     color: #9AA3B0;
+    display: block;
   }
 
   .overview {
@@ -845,18 +837,18 @@ button {
   }
 
   .overview-open {
-    height: 30px;
-    width: 70px !important;
     border-radius: 15px;
     font-size: 11.5px;
+    height: 30px;
+    width: 70px !important;
   }
 
   .overview-btn {
-    height: 30px;
-    width: 30px;
     border-radius: 15px;
     font-size: 12px;
+    height: 30px;
     margin-left: 5px;
+    width: 30px;
   }
 
   .toggle-options {
@@ -869,10 +861,7 @@ button {
     font-size: 12px;
   }
 
-  .job-toggle {
-    display: none;
-  }
-
+  .job-toggle,
   .applicants-toggle {
     display: none;
   }
@@ -883,16 +872,16 @@ button {
   }
 
   .bar-graph {
-    min-width: 80%;
     min-height: 90%;
+    min-width: 80%;
   }
 
   .graph-label-content {
+    border-radius: 15px;
     font-size: 12px;
     height: 30px;
-    border-radius: 15px;
-    padding: 10px 10px 22px 10px;
     margin-top: 8px;
+    padding: 10px 10px 22px 10px;
   }
 
   .label-circle-graph {
