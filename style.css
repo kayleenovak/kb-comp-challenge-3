@@ -4,8 +4,6 @@
 }
 
 body {
-  margin: 0;
-  padding: 0;
   display: grid;
   grid-template-areas: "aside search-section search-section search-section"
                        "aside overview       overview      overview"
@@ -13,71 +11,69 @@ body {
                        "aside graphs         graphs         graphs"
                        "aside profile        profile        profile";
   font-family: 'Open Sans', sans-serif;
-}
-
-button {
-  cursor: pointer;
+  margin: 0;
+  padding: 0;
 }
 
 .nav-section {
-  grid-area: aside;
   background-color: #343F53;
+  grid-area: aside;
   width: 215px;
 }
 
 .person-info {
+  align-items: center;
   border-bottom: 3px solid #283143;
   display: flex;
   flex-direction: column;
-  align-items: center;
 }
 
 .name-profile {
   background: none !important;
+  color: #98A3B7;
   font-size: 18px;
   font-weight: 400;
-  color: #98A3B7;
   margin: 13px 0 29px 0;
 }
 
 .profile-image {
-  height: 90px;
-  width: 90px;
   border-radius: 45px;
+  height: 90px;
   margin-top: 35px;
+  width: 90px;
 }
 
 .nav-menu {
   border-bottom: 3px solid #283143;
-  padding: 0px 0 20px 0px;
   font-size: 8px;
   margin: 0;
-
+  padding: 0px 0 20px 0px;
 }
 
 .menu-heading {
-  margin: 31px 0 7px 24px;
-  font-size: 14px;
   color: #61718C;
+  font-size: 14px;
+  margin: 31px 0 7px 24px;
 }
 
 button {
-  border: none;
-  font-size: 12px;
   background-color: white;
+  border: none;
+  cursor: pointer;
+  font-size: 12px;
 }
 
 .nav-btn {
-  display: block;
   background: transparent;
+  border-left: 4px solid transparent;
   color: #98A3B7;
-  height: 45px;
-  padding-left: 20px;
+  display: block;
   font-size: 13.5px;
   font-weight: 700;
-  border-left: 4px solid transparent;
-  width: 215px;
+  height: 45px;
+  padding-left: 20px;
   text-align: left;
+  width: 215px;
 }
 
 .nav-btn:hover {
@@ -87,10 +83,10 @@ button {
 
 .icon {
   font-size: 19px;
-  width: 21px;
   margin-right: 15px;
   position: relative;
   top: 2px;
+  width: 21px;
 }
 
 .categories-heading {
@@ -98,22 +94,22 @@ button {
 }
 
 .checkbox-label {
-  display: block;
-  position: relative;
   bottom: 25px;
-  left: 55px;
-  font-size: 13.5px;
   color: #98A3B7;
+  display: block;
+  font-size: 13.5px;
   font-weight: 600;
+  left: 55px;
+  position: relative;
 }
 
 .checkboxes {
   -webkit-appearance: none;
-  padding: 9px;
-  position: relative;
+  border-radius: 3px;
   margin-bottom: 6px;
   margin-left: 25px;
-  border-radius: 3px;
+  padding: 9px;
+  position: relative;
 }
 
 .checkboxes:checked {
@@ -121,12 +117,12 @@ button {
 }
 
 .checkboxes:checked:after {
+  color: black;
   content: '\2714';
   font-size: 14px;
+  left: 3px;
   position: absolute;
   top: 0px;
-  left: 3px;
-  color: black;
 }
 
 .administrative {
@@ -151,22 +147,20 @@ button {
 }
 
 .search-section {
-  grid-area: search-section;
-  display: grid;
-  grid-template-columns: 1fr 9fr repeat(3, 1fr) ;
-  background: grey;
-  height: 85px;
   border-bottom: 2px solid #EBEBEB;
+  display: grid;
+  grid-area: search-section;
+  grid-template-columns: 1fr 9fr repeat(3, 1fr) ;
+  height: 85px;
   margin: 0;
   position: relative;
 }
 
 .open-menu {
   color: #4AC4FF;
-  position: absolute;
   left: 15px;
+  position: absolute;
   top: 30px;
-
 }
 
 .search-btn {
@@ -184,11 +178,11 @@ button {
 }
 
 .search-bar {
-  font-family: "Open Sans", "Font Awesome 5 Free";
-  font-weight: 700;
-  font-size: 20px;
-  border: none;
   border-right: 2px solid #EBEBEB;
+  border: none;
+  font-family: "Open Sans", "Font Awesome 5 Free";
+  font-size: 20px;
+  font-weight: 700;
   padding-left: 20px;
 }
 
@@ -201,10 +195,10 @@ button {
 }
 
 .overview {
-  grid-area: overview;
   background-color: white;
-  margin: 0;
+  grid-area: overview;
   height: 140px;
+  margin: 0;
 }
 
 .job-listing {
@@ -215,14 +209,12 @@ button {
 .job-title {
   font-size: 28px;
   font-weight: 500;
-  margin-top: 10px;
-  margin-bottom: 0;
+  margin: 10px 0;
   color: #4E505F;
 }
 
 .location {
-  margin-top: 12px;
-  margin-left: 5px;
+  margin: 12px 0 0 3px;
   color: #8894A6;
 }
 
@@ -244,32 +236,31 @@ button {
   margin: 60px 50px 0 0;
 }
 
+.overview-btn {
+  height: 44px;
+  border: 2px solid #D1DAE3;
+  border-radius: 22px;
+  color: #9AA3B0;
+}
+
+.overview-open {
+  width: 100px;
+  font-size: 13.5px;
+  margin: 1px;
+  font-weight: 700;
+}
+
+.overview-icon-btn {
+  width: 44px;
+  font-size: 16px;
+  margin: 0 0 0 10px;
+}
+
 .overview-btn:hover,
 .overview-open:hover {
   background: #009FFE;
   border: transparent;
   color: white;
-}
-
-.overview-open {
-  height: 44px;
-  width: 100px;
-  border: 2px solid #D1DAE3;
-  border-radius: 22px;
-  font-size: 13.5px;
-  margin: 1px;
-  color: #9AA3B0;
-  font-weight: 700;
-}
-
-.overview-btn {
-  height: 44px;
-  width: 44px;
-  border: 2px solid #D1DAE3;
-  border-radius: 22px;
-  font-size: 16px;
-  margin: 0 0 0 10px;
-  color: #9AA3B0;
 }
 
 .circle-icon {
