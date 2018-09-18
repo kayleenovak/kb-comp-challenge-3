@@ -19,7 +19,7 @@ button {
   cursor: pointer;
 }
 
-aside {
+.nav-section {
   grid-area: aside;
   background-color: #343F53;
   width: 215px;
@@ -47,8 +47,7 @@ aside {
   margin-top: 35px;
 }
 
-.main-menu,
-.admin-menu {
+.nav-menu {
   border-bottom: 3px solid #283143;
   padding: 0px 0 20px 0px;
   font-size: 8px;
@@ -56,9 +55,7 @@ aside {
 
 }
 
-.main-heading,
-.admin,
-.categories-heading {
+.menu-heading {
   margin: 31px 0 7px 24px;
   font-size: 14px;
   color: #61718C;
@@ -100,7 +97,7 @@ button {
   margin-bottom: 27px;
 }
 
-label {
+.checkbox-label {
   display: block;
   position: relative;
   bottom: 25px;
@@ -132,23 +129,19 @@ label {
   color: black;
 }
 
-.administrative,
-.administratice:checked {
+.administrative {
   background-color: #FDD10D;
 }
 
-.design,
-.design:checked {
+.design {
   background-color: #26A6F9;
 }
 
-.executive,
-.executive:checked {
+.executive {
   background-color: #EA1253;
 }
 
-.human-resources,
-.human-resources:checked {
+.human-resources {
   background-color: #01A17E;
 }
 
