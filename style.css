@@ -15,6 +15,13 @@ body {
   padding: 0;
 }
 
+button {
+  background-color: white;
+  border: none;
+  cursor: pointer;
+  font-size: 12px;
+}
+
 /* Nav Section*/
 .nav-section {
   background-color: #343F53;
@@ -29,19 +36,19 @@ body {
   flex-direction: column;
 }
 
+.profile-image {
+  border-radius: 45px;
+  height: 90px;
+  margin-top: 35px;
+  width: 90px;
+}
+
 .name-profile {
   background: none !important;
   color: #98A3B7;
   font-size: 18px;
   font-weight: 400;
   margin: 13px 0 29px 0;
-}
-
-.profile-image {
-  border-radius: 45px;
-  height: 90px;
-  margin-top: 35px;
-  width: 90px;
 }
 
 .nav-menu {
@@ -57,13 +64,6 @@ body {
   margin: 31px 0 7px 24px;
 }
 
-button {
-  background-color: white;
-  border: none;
-  cursor: pointer;
-  font-size: 12px;
-}
-
 .nav-btn {
   background: transparent;
   border-left: 4px solid transparent;
@@ -75,6 +75,11 @@ button {
   padding-left: 20px;
   text-align: left;
   width: 215px;
+}
+
+.nav-btn:hover {
+  background: #374256;
+  color: white;
 }
 
 .nav-btn:hover {
@@ -92,16 +97,6 @@ button {
 
 .categories-heading {
   margin-bottom: 27px;
-}
-
-.checkbox-label {
-  bottom: 25px;
-  color: #98A3B7;
-  display: block;
-  font-size: 13.5px;
-  font-weight: 600;
-  left: 55px;
-  position: relative;
 }
 
 .checkboxes {
@@ -126,6 +121,16 @@ button {
   top: 0px;
 }
 
+.checkbox-label {
+  bottom: 25px;
+  color: #98A3B7;
+  display: block;
+  font-size: 13.5px;
+  font-weight: 600;
+  left: 55px;
+  position: relative;
+}
+
 .administrative {
   background-color: #FDD10D;
 }
@@ -142,11 +147,6 @@ button {
   background-color: #01A17E;
 }
 
-.nav-btn:hover {
-  background: #374256;
-  color: white;
-}
-
 /* Search Section */
 
 .search-section {
@@ -157,13 +157,6 @@ button {
   height: 85px;
   margin: 0;
   position: relative;
-}
-
-.open-menu {
-  color: #4AC4FF;
-  left: 15px;
-  position: absolute;
-  top: 30px;
 }
 
 .search-btn {
@@ -180,6 +173,13 @@ button {
   font-size: 22px;
 }
 
+.open-menu {
+  color: #4AC4FF;
+  left: 15px;
+  position: absolute;
+  top: 30px;
+}
+
 .search-bar {
   border-right: 2px solid #EBEBEB;
   border: none;
@@ -189,14 +189,13 @@ button {
   padding-left: 20px;
 }
 
-.add-user-icon {
-  border-left: 2px solid #EBEBEB;
-}
-
 .search-bar::placeholder {
   color: #B1B9C5 !important;
 }
 
+.add-user-icon {
+  border-left: 2px solid #EBEBEB;
+}
 
 .expand-search-btn {
   display: none;
@@ -298,17 +297,17 @@ button {
   margin: 0 10px;
 }
 
-.expand-toggle {
-  display: none;
+.toggle-btn:hover {
+  border-bottom: 4px solid #0298F0;
+  color: #4F5160;
 }
 
 .job-board-btn {
   white-space: nowrap;
 }
 
-.toggle-btn:hover {
-  border-bottom: 4px solid #0298F0;
-  color: #4F5160;
+.expand-toggle {
+  display: none;
 }
 
 /* Graph Section */
@@ -465,6 +464,15 @@ button {
   margin-right: 50px;
 }
 
+.job-description {
+  background-color: #6D7C96;
+}
+
+.table-no-border {
+  border: none !important;
+  width: 5%;
+}
+
 .column-name {
   border: none;
   color: white;
@@ -491,10 +499,6 @@ button {
   font-weight: 700;
 }
 
-.job-description {
-  background-color: #6D7C96;
-}
-
 .job-rows {
   background-color: white;
   border-bottom: 2px solid #EDF2F5;
@@ -504,28 +508,11 @@ button {
   padding: 33px 0 33px 0px;
 }
 
-.table-no-border {
-  border: none !important;
-  width: 5%;
-}
-
 /* Social Media Section */
 
 .social-menu {
   background-color: #EBF2F6;
   padding-right: 50px;
-}
-
-.social-heading {
-  color: #59677C;
-  font-size: 19px;
-  font-weight: 600;
-  margin-bottom: 15px;
-}
-
-.second-heading {
-  border-bottom: none !important;
-  margin-top: 15px;
 }
 
 .social-btn {
@@ -540,12 +527,6 @@ button {
   width: 100%;
 }
 
-.social-icon {
-  font-size: 18px;
-  left: 20px;
-  position: absolute;
-}
-
 .facebook-btn {
   background: #4A66C4;
 }
@@ -558,6 +539,12 @@ button {
   background: #007FC0;
 }
 
+.social-icon {
+  font-size: 18px;
+  left: 20px;
+  position: absolute;
+}
+
 .social-section {
   border-bottom: 2px solid #D1DAE3;
   font-size: 0;
@@ -565,11 +552,23 @@ button {
   position: relative;
 }
 
+.social-heading {
+  color: #59677C;
+  font-size: 19px;
+  font-weight: 600;
+  margin-bottom: 15px;
+}
+
 .social-para {
   color: #788294;
   font-size: 13px !important;
   line-height: 1.6;
   margin-bottom: 25px;
+}
+
+.second-heading {
+  border-bottom: none !important;
+  margin-top: 15px;
 }
 
 .social-input {
