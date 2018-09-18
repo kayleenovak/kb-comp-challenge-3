@@ -690,10 +690,15 @@ button {
     display: grid;
     grid-template-areas: "job-info job-info"
                          "social-menu social-menu";
+    padding: 10px 50px 50px 50px;
   }
 
   .job-info {
     grid-area: job-info;
+  }
+
+  .job-table {
+    width: 100%;
   }
 
   .social-menu {
