@@ -506,6 +506,19 @@ button {
   font-size: 15.5px;
   height: 85px;
   padding: 33px 0 33px 0px;
+  position: relative;
+}
+
+.hiring-lead-pic {
+  height: 50px;
+  width: 50px;
+  border-radius: 25px;
+}
+
+.hiring-name {
+  position: absolute;
+  top: 50px;
+  left: 65px;
 }
 
 /* Social Media Section */
