@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
   <title>Static Comp 3</title>
   <link rel="stylesheet" type="text/css" href="normalize.css">
@@ -46,7 +46,7 @@
   </aside>
   <section class="search-section">
     <button class="search-btn hamburger-menu"><i class="fas fa-caret-left search-icon open-menu"></i><i class="fas fa-bars search-icon"></i></button>
-    <input type="text" name="" placeholder="&#xf002;   Search for a job, task, or resume" class="search-bar">
+    <input type="text" name="" placeholder="&#xf002;   Search for a job, task, or resume" class="search-bar" aria-label="Search">
     <button class="search-btn add-user-icon"><i class="fas fa-user-alt search-icon"></i></button>
     <button class="search-btn"><i class="fas fa-calendar-alt search-icon"></i></button>
     <button class="search-btn"><i class="fas fa-th search-icon"></i></button>
@@ -122,7 +122,7 @@
         <text x="18" y="23.00" class="percentage graph-title">FORWARDS</text>
       </svg>
     </div>
-    <img src="images/graph.png" class="bar-graph">
+    <img src="images/graph.png" class="bar-graph" alt="bar graph of applicants per day">
     <div class="graph-label circle-graph-label">
       <p class="graph-label-content label-circle-graph">TOTALS - Out of <b>5,231</b> views</p>
     </div>
@@ -145,49 +145,49 @@
         <tr>
           <td class="table-no-border job-rows"></td>
           <td class="job-rows row-title small-font">POSITION TITLE</td>
-          <td class="job-rows">Customer Service Representative</td>
+          <td class="job-rows small-font">Customer Service Representative</td>
           <td class="table-no-border job-rows"></td>
         </tr>
         <tr>
           <td class="table-no-border job-rows"></td>
           <td class="job-rows row-title small-font">LOCATION</td>
-          <td class="job-rows">San Francisco, CA</td>
+          <td class="job-rows small-font">San Francisco, CA</td>
           <td class="table-no-border job-rows"></td>
         </tr>
         <tr>
           <td class="table-no-border job-rows"></td>
           <td class="job-rows row-title small-font">EMPLOYMENT TYPE</td>
-          <td class="job-rows">Full-Time</td>
+          <td class="job-rows small-font">Full-Time</td>
           <td class="table-no-border job-rows"></td>
         </tr>
         <tr>
           <td class="table-no-border job-rows"></td>
           <td class="job-rows row-title small-font">EXPERIENCE</td>
-          <td class="job-rows">Mid-Level</td>
+          <td class="job-rows small-font">Mid-Level</td>
           <td class="table-no-border job-rows"></td>
         </tr>
         <tr>
           <td class="table-no-border job-rows"></td>
           <td class="job-rows row-title small-font">STATUS</td>
-          <td class="job-rows">Open</td>
+          <td class="job-rows small-font">Open</td>
           <td class="table-no-border job-rows"></td>
         </tr>
         <tr>
           <td class="table-no-border job-rows"></td>
           <td class="job-rows row-title small-font">DESCRIPTION</td>
-          <td class="job-rows">The Customer Service Representative is responsible for...The Customer Service Representative is responsible for... The Customer Service Representative is responsible for... The Customer Service Representative is responsible for... The Customer Service Representative is responsible for... The Customer Service Representative is responsible for... The Customer Service Representative is responsible for...</td>
+          <td class="job-rows small-font">The Customer Service Representative is responsible for...The Customer Service Representative is responsible for... The Customer Service Representative is responsible for... The Customer Service Representative is responsible for... The Customer Service Representative is responsible for... The Customer Service Representative is responsible for... The Customer Service Representative is responsible for...</td>
           <td class="table-no-border job-rows"></td>
         </tr>
         <tr>
           <td class="table-no-border job-rows"></td>
           <td class="job-rows row-title small-font">HIRING LEAD</td>
-          <td class="job-rows">Brown</td>
+          <td class="job-rows "><img src="images/hiring.jpg" class="hiring-lead-pic"><span class="hiring-name small-font">Leslie Knope</span></td>
           <td class="table-no-border job-rows"></td>
         </tr>
         <tr>
           <td class="table-no-border job-rows"></td>
           <td class="job-rows row-title small-font">APPROVED SALARY</td>
-          <td class="job-rows">$80,000</td>
+          <td class="job-rows small-font">$80,000</td>
           <td class="table-no-border job-rows"></td>
         </tr>
       </table>
@@ -202,19 +202,19 @@
         <article class="social-section">
           <h2 class="social-heading"><i class="fas fa-globe-americas"></i> Link to this Job</h2>
           <p class="social-para">Loren ipsum dolor sit amet, consectetur adipis cing elit. Inteer mollis neque eget vastibpend.</p>
-          <input type="text" name="" placeholder="http://lorenipsum.com/dolor sit amet" class="social-input">
+          <input type="text" name="" placeholder="http://lorenipsum.com/dolor sit amet" class="social-input" aria-label="Link to job">
           <button class="copy-btn">Copy</button>
         </article>
         <article class="social-section">
           <h2 class="social-heading second-heading"><i class="fas fa-puzzle-piece"></i> Use the Button Widget</h2>
           <p class="social-para">This widget embeds the buttons for sharing the job for submitting a resume on your website.</p>
-          <input type="text" name="" placeholder="Attach this button widget to your website" class="social-input">
+          <input type="text" name="" placeholder="Attach this button widget to your website" class="social-input" aria-label="Widget link">
           <button class="copy-btn">Copy</button>
         </article>
         <article class="social-section second-heading">
           <h2 class="social-heading"><i class="fas fa-paper-plane"></i> Upload Resumes by Email</h2>
           <p class="social-para">You can automaticlly upload multiple resumes to this job by e-mailing the address below.</p>
-          <input type="text" name="" placeholder="E-mail Address" class="social-input email-input">
+          <input type="text" name="" placeholder="E-mail Address" class="social-input email-input" aria-label="E-mail Address">
         </article>
       </section>
     </section>
